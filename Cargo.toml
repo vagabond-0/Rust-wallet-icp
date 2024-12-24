@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/rust-wallet-icp-backend"
+]
+resolver = "2"
