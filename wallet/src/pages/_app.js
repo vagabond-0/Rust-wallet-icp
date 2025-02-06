@@ -1,6 +1,6 @@
 import { initializeAgent, initializeCanister } from '@/cannister/Cannister';
 import { useEffect, useState } from 'react';
-
+import '@/styles/globals.css'
 function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

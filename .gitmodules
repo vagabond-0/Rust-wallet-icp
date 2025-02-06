@@ -1,0 +1,3 @@
+[submodule "wallet/walletcontract"]
+	path = wallet/walletcontract
+	url = https://github.com/vagabond-0/walletcontract.git
