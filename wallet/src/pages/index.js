@@ -98,7 +98,7 @@ export default function WalletApp() {
           <div className="space-y-6">
             <div className="bg-gray-100 p-4 rounded-lg shadow">
               <p className="text-gray-600">Welcome</p>
-              <p className="text-xl font-semibold">{userInfo.username}</p>
+              <p className="text-xl font-semibold text-black">{userInfo.username} </p>
               <p className="text-gray-600 mt-2">Balance</p>
               <p className="text-xl font-semibold text-black">{balance} tokens</p>
             </div>
