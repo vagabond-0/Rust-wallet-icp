@@ -1,5 +1,5 @@
 import { Actor, HttpAgent } from "@dfinity/agent";
-import { idlFactory } from "../../../contract/src/declarations/contract_backend/contract_backend.did.js";
+import { idlFactory } from "./contract_backend.did.js";
 
 // Local canister ID
 const canisterId = process.env.NEXT_PUBLIC_CANISTER_ID || "by6od-j4aaa-aaaaa-qaadq-cai";
